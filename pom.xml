@@ -19,9 +19,6 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<mybatisplus.version>3.3.1</mybatisplus.version>
-		<mysql.version>8.0.28</mysql.version>
-		<mssql.version>4.0</mssql.version>
-		<oracle.version>11.2.0.3</oracle.version>
 		<druid.version>1.1.13</druid.version>
 		<quartz.version>2.3.0</quartz.version>
 		<commons.lang.version>2.6</commons.lang.version>
@@ -96,23 +93,6 @@
 					<artifactId>mybatis-plus-generator</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql.version}</version>
-		</dependency>
-		 <!--oracle驱动-->
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>${oracle.version}</version>
-		</dependency>
-		 <!--mssql驱动-->
-		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>sqljdbc4</artifactId>
-			<version>${mssql.version}</version>
 		</dependency>
 		 <!--postgresql驱动-->
 		<dependency>
